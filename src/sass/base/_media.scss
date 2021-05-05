@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        margin: 0 10px 0 10px;
+        &__logo {
+            width: 225px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            margin-top: 8px;
+            font-size: 20px;
+        }
+    }
+
+
+    .button {
+        &_main {
+            width: 250px;
+        }
+    }
+
+
+}
+
+@media (max-width: 767px) {   /* адаптация для размера 576 */
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-bottom: 30px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) { 
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 11px;
+        }
+        &__logo {
+            width: 170px;
+        }
+    }
+    .button {
+        width: 110px;
+        height: 23px;
+        font-size: 10px;
+    }
+}
